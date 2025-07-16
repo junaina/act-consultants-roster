@@ -80,5 +80,3 @@ Built during my internship with [ACT International](https://actinternational.org
 ## 📄 License
 
 MIT
-
-> > > > > > > 0f6a89c4b6b3e767e0736977c52a11bec3ff7b98
