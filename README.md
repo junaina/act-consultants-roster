@@ -35,7 +35,50 @@ A role-based admin and user management system built for **ACT International (Aim
 
 ## 🚀 Setup Instructions
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/act-consultant-roster.git
-   cd act-consultant-roster
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/act-consultant-roster.git
+cd act-consultant-roster
+```
+
+### 2. Install Dependencies
+
+```bash
+composer install
+npm install && npm run dev
+```
+
+### 3. Setup Environment File
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+### 4. Configure `.env`
+
+Update the `.env` file with your **database credentials** and any other environment variables.
+
+### 5. Run Migrations
+
+```bash
+php artisan migrate
+```
+
+### 6. Launch the App
+
+```bash
+php artisan serve
+```
+
+Then navigate to `http://127.0.0.1:8000` in your browser.
+
+
+## 🤝 Acknowledgements
+
+Built during my internship with [ACT International](https://actinternational.org/) as a full-stack Laravel developer to support their expert consultant program.
+
+## 📄 License
+
+MIT
